@@ -65,7 +65,7 @@ Relationship with the property
 		- No
 - Tenant
 
-### Online property report generated and displayed and Property report sent to entered email address
+### 5. Online property report generated and displayed and Property report sent to entered email address
 
 ## Automated Test Cases (34)
 
