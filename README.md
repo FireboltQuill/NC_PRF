@@ -1,8 +1,6 @@
-# Cypress Starter
+# NurtureCloud Property Report Funnel - Cypress Automation
 
-A basic starter starter project for creating and running [Cypress](https://www.cypress.io/) tests. 
-
-For information about using the Cypress application and writing tests, see the [Cypress documentation](https://docs.cypress.io/).
+Automation testing of NurtureCloud's Property Report Funnel using Cypress
 
 ## Prerequisites:
 
@@ -11,21 +9,48 @@ For information about using the Cypress application and writing tests, see the [
 
 ## Getting Started:
 
-1. Clone this repository to your local machine:
-    
-```
-git clone git@github.com:UpsideRealty/cypress-starter.git
-```
-
-2. Install dependencies:
+1. Install dependencies:
 
 ```
-cd cypress-starter
-npm install
+npm install cypress
 ```
 
-3. Start the Cypress app:
+2. Start the Cypress app:
 
 ```
-npm run cy:open
+npx cypress open
 ```
+
+## Test cases
+
+The file PropertyReportFunnel.cy.js includes the following test cases
+
+Entering property address
+Entering property details
+Confirm user details
+Questionnaire
+	Relationship with the property
+	- Owner Occupied
+		When are you thinking of selling?
+		- Now
+		- Within the next month
+		- 2-6 months
+		- 6+ months
+		- Already on the market
+		- Not sure
+		- Just refinancing
+	- Owner Investor
+		When are you thinking of selling?
+		- Now
+		- Within the next month
+		- 2-6 months
+		- 6+ months
+		- Already on the market
+		- Not sure
+		- Just refinancing
+	- Buyer
+		Are you looking to sell a property before purchase
+		- Yes
+		- No
+	- Tenant
+
