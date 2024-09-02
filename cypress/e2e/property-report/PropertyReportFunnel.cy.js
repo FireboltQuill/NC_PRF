@@ -367,7 +367,7 @@ describe('Test Property Report Funnel', () => {
         cy.contains('Next').click()
     })
 
-    it('4. Property Details, Tenant', () => {
+    it('4.1. Property Details, Tenant', () => {
         cy.visit('https://nurturecloud-demo.raywhite.com/property-report/address')
         cy.get('#hero-address-finder-autocomplete-input').type('25 Seabrook Crescent')
         cy.contains('25 Seabrook Crescent, DOONSIDE NSW 2767').click()
@@ -711,7 +711,7 @@ describe('Test Property Report Funnel', () => {
         cy.contains('Next').click()
     })
 
-    it('8. Skip Property Details, Tenant', () => {
+    it('8.1. Skip Property Details, Tenant', () => {
         cy.visit('https://nurturecloud-demo.raywhite.com/property-report/address')
         cy.get('#hero-address-finder-autocomplete-input').type('25 Seabrook Crescent')
         cy.contains('25 Seabrook Crescent, DOONSIDE NSW 2767').click()
