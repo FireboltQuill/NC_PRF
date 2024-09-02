@@ -21,36 +21,86 @@ npm install cypress
 npx cypress open
 ```
 
-## Test cases
+## Funnel Flow:
 
-The file PropertyReportFunnel.cy.js includes the following test cases
+### 1. Enter property address
 
-Entering property address
-Entering property details
-Confirm user details
-- Questionnaire
-	1. Relationship with the property
-		- Owner Occupied
-			1. When are you thinking of selling?
-				- Now
-				- Within the next month
-				- 2-6 months
-				- 6+ months
-				- Already on the market
-				- Not sure
-				- Just refinancing
-		2. Owner Investor
-			1. When are you thinking of selling?
-				- Now
-				- Within the next month
-				- 2-6 months
-				- 6+ months
-				- Already on the market
-				- Not sure
-				- Just refinancing
-		3. Buyer
-			- Are you looking to sell a property before purchase
-				- Yes
-				- No
-		4. Tenant
+### 2. Enter property details:
+- No. bedrooms
+- No. bathrooms
+- Parking
+
+### 3. Confirm user details: 
+- First name
+- Last name
+- Email
+- Mobile Phone Number
+
+### 4. Questionnaire
+
+Relationship with the property
+- Owner Occupied: 
+
+	- When are you thinking of selling?
+		- Now
+		- Within the next month
+		- 2-6 months
+		- 6+ months
+		- Already on the market
+		- Not sure
+		- Just refinancing
+- Owner Investor: 
+	
+	- When are you thinking of selling?
+		- Now
+		- Within the next month
+		- 2-6 months
+		- 6+ months
+		- Already on the market
+		- Not sure
+		- Just refinancing
+- Buyer
+	- Are you looking to sell a property before purchase
+		- Yes
+		- No
+- Tenant
+
+## Automated Test Cases (34)
+
+| No | ID  | Property Address | Property Details	  | User Details  | Questionnaire						  |
+| -- | --- | ---------------- | --------------------- | ------------- | ------------------------------------- |
+| 01 | 1.1 | Valid address    | Valid details		  | Valid details | Owner Occupied, Now					  |
+| 02 | 1.2 | Valid address    | Valid details		  | Valid details | Owner Occupied, Within the next month |
+| 03 | 1.3 | Valid address    | Valid details		  | Valid details | Owner Occupied, 2-6 months			  |
+| 04 | 1.4 | Valid address    | Valid details		  | Valid details | Owner Occupied, 6+ months			  |
+| 05 | 1.5 | Valid address    | Valid details		  | Valid details | Owner Occupied, Already on the market |
+| 06 | 1.6 | Valid address    | Valid details		  | Valid details | Owner Occupied, Not sure			  |
+| 07 | 1.7 | Valid address    | Valid details		  | Valid details | Owner Occupied, Just refinancing	  |
+| 08 | 2.1 | Valid address    | Valid details		  | Valid details | Owner investor, Now					  |
+| 09 | 2.2 | Valid address    | Valid details		  | Valid details | Owner investor, Within the next month |
+| 10 | 2.3 | Valid address    | Valid details		  | Valid details | Owner investor, 2-6 months 			  |
+| 11 | 2.4 | Valid address    | Valid details		  | Valid details | Owner investor, 6+ months 			  |
+| 12 | 2.5 | Valid address    | Valid details		  | Valid details | Owner investor, Already on the market |
+| 13 | 2.6 | Valid address    | Valid details		  | Valid details | Owner investor, Not sure 			  |
+| 14 | 2.7 | Valid address    | Valid details		  | Valid details | Owner investor, Just refinancing	  |
+| 15 | 3.1 | Valid address    | Valid details		  | Valid details | Buyer, Yes							  |
+| 16 | 3.2 | Valid address    | Valid details		  | Valid details | Buyer, No							  |
+| 17 | 4.1 | Valid address    | Valid details		  | Valid details | Tenant								  |
+| 18 | 5.1 | Valid address    | Skip property details | Valid details | Owner Occupied, Now					  |
+| 19 | 5.2 | Valid address    | Skip property details | Valid details | Owner Occupied, Within the next month |
+| 20 | 5.3 | Valid address    | Skip property details | Valid details | Owner Occupied, 2-6 months			  |
+| 21 | 5.4 | Valid address    | Skip property details | Valid details | Owner Occupied, 6+ months			  |
+| 22 | 5.5 | Valid address    | Skip property details | Valid details | Owner Occupied, Already on the market |
+| 23 | 5.6 | Valid address    | Skip property details | Valid details | Owner Occupied, Not sure			  |
+| 24 | 5.7 | Valid address    | Skip property details | Valid details | Owner Occupied, Just refinancing	  |
+| 25 | 6.1 | Valid address    | Skip property details | Valid details | Owner investor, Now					  |
+| 26 | 6.2 | Valid address    | Skip property details | Valid details | Owner investor, Within the next month |
+| 27 | 6.3 | Valid address    | Skip property details | Valid details | Owner investor, 2-6 months			  |
+| 28 | 6.4 | Valid address    | Skip property details | Valid details | Owner investor, 6+ months 			  |
+| 29 | 6.5 | Valid address    | Skip property details | Valid details | Owner investor, Already on the market |
+| 30 | 6.6 | Valid address    | Skip property details | Valid details | Owner investor, Not sure 			  |
+| 31 | 6.7 | Valid address    | Skip property details | Valid details | Owner investor, Just refinancing 	  |
+| 32 | 7.1 | Valid address    | Skip property details | Valid details | Buyer, Yes							  |
+| 33 | 7.2 | Valid address    | Skip property details | Valid details | Buyer, No							  |
+| 34 | 8.1 | Valid address    | Skip property details | Valid details | Tenant								  |
 
