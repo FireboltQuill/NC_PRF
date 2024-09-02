@@ -104,6 +104,10 @@ Relationship with the property
 | 33 | 7.2 | Valid address    | Skip property details | Valid details | Buyer, No							  |
 | 34 | 8.1 | Valid address    | Skip property details | Valid details | Tenant								  |
 
+## Test Results
+![image](https://github.com/user-attachments/assets/407b67e1-211c-4720-a3af-0efeeabe6575)<br>
+![image](https://github.com/user-attachments/assets/52ba12b0-d96b-4a7f-b792-532303cd0770)
+
 ## Further Testing
 
 - Entering invalid address
@@ -117,4 +121,4 @@ Relationship with the property
 	- Wrong name
 	- Wrong email address
 	- Wrong phone number
-- Using differnt browser/device combinations
+- Using different browser/device combinations
