@@ -69,7 +69,7 @@ Relationship with the property
 
 ## Automated Test Cases (34)
 
-| No | ID  | Property Address | Property Details	  | User Details  | Questionnaire						  |
+| No. | ID  | Property Address | Property Details	  | User Details  | Questionnaire						  |
 | -- | --- | ---------------- | --------------------- | ------------- | ------------------------------------- |
 | 01 | 1.1 | Valid address    | Valid details		  | Valid details | Owner Occupied, Now					  |
 | 02 | 1.2 | Valid address    | Valid details		  | Valid details | Owner Occupied, Within the next month |
