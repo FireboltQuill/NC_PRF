@@ -28,29 +28,29 @@ The file PropertyReportFunnel.cy.js includes the following test cases
 Entering property address
 Entering property details
 Confirm user details
-Questionnaire
-	- Relationship with the property
-	- Owner Occupied
-		- When are you thinking of selling?
-		- Now
-		- Within the next month
-		- 2-6 months
-		- 6+ months
-		- Already on the market
-		- Not sure
-		- Just refinancing
-	- Owner Investor
-		- When are you thinking of selling?
-		- Now
-		- Within the next month
-		- 2-6 months
-		- 6+ months
-		- Already on the market
-		- Not sure
-		- Just refinancing
-	- Buyer
-		- Are you looking to sell a property before purchase
-		- Yes
-		- No
-	- Tenant
+- Questionnaire
+	1. Relationship with the property
+		- Owner Occupied
+			1. When are you thinking of selling?
+				- Now
+				- Within the next month
+				- 2-6 months
+				- 6+ months
+				- Already on the market
+				- Not sure
+				- Just refinancing
+		2. Owner Investor
+			1. When are you thinking of selling?
+				- Now
+				- Within the next month
+				- 2-6 months
+				- 6+ months
+				- Already on the market
+				- Not sure
+				- Just refinancing
+		3. Buyer
+			- Are you looking to sell a property before purchase
+				- Yes
+				- No
+		4. Tenant
 
