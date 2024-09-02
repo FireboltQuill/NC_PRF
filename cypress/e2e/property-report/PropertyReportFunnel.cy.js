@@ -1,13 +1,13 @@
 describe('Test Property Report Funnel', () => {
     it('1.1. Property Details, Owner Occupied, Sell Now', () => {
         cy.visit('https://nurturecloud-demo.raywhite.com/property-report/address')
-        cy.get('#hero-address-finder-autocomplete-input').type('25 Seabrook Crescent')
+        cy.get('#nc-address-finder-1-autocomplete-input').type('25 Seabrook Crescent')
         cy.contains('25 Seabrook Crescent, DOONSIDE NSW 2767').click()
         cy.contains('Next').click()
 
-        cy.get('#property-data-bedrooms-input').type('3')
-        cy.get('#property-data-bathrooms-input').type('1')
-        cy.get('#property-data-car-spaces-input').type('4')
+        cy.get('#input-3').type('3')
+        cy.get('#input-4').type('1')
+        cy.get('#input-5').type('4')
         cy.contains('Next').click()
 
         cy.get('#sign-up-first-name-input').type('Dylan')
@@ -24,13 +24,13 @@ describe('Test Property Report Funnel', () => {
 
     it('1.2. Property Details, Owner Occupied, Sell Within next Month', () => {
         cy.visit('https://nurturecloud-demo.raywhite.com/property-report/address')
-        cy.get('#hero-address-finder-autocomplete-input').type('25 Seabrook Crescent')
+        cy.get('#nc-address-finder-1-autocomplete-input').type('25 Seabrook Crescent')
         cy.contains('25 Seabrook Crescent, DOONSIDE NSW 2767').click()
         cy.contains('Next').click()
 
-        cy.get('#property-data-bedrooms-input').type('3')
-        cy.get('#property-data-bathrooms-input').type('1')
-        cy.get('#property-data-car-spaces-input').type('4')
+        cy.get('#input-3').type('3')
+        cy.get('#input-4').type('1')
+        cy.get('#input-5').type('4')
         cy.contains('Next').click()
 
         cy.get('#sign-up-first-name-input').type('Dylan')
@@ -47,13 +47,13 @@ describe('Test Property Report Funnel', () => {
 
     it('1.3. Property Details, Owner Occupied, Sell 2-6 months', () => {
         cy.visit('https://nurturecloud-demo.raywhite.com/property-report/address')
-        cy.get('#hero-address-finder-autocomplete-input').type('25 Seabrook Crescent')
+        cy.get('#nc-address-finder-1-autocomplete-input').type('25 Seabrook Crescent')
         cy.contains('25 Seabrook Crescent, DOONSIDE NSW 2767').click()
         cy.contains('Next').click()
 
-        cy.get('#property-data-bedrooms-input').type('3')
-        cy.get('#property-data-bathrooms-input').type('1')
-        cy.get('#property-data-car-spaces-input').type('4')
+        cy.get('#input-3').type('3')
+        cy.get('#input-4').type('1')
+        cy.get('#input-5').type('4')
         cy.contains('Next').click()
 
         cy.get('#sign-up-first-name-input').type('Dylan')
@@ -70,13 +70,13 @@ describe('Test Property Report Funnel', () => {
 
     it('1.4. Property Details, Owner Occupied, Sell 6+ months', () => {
         cy.visit('https://nurturecloud-demo.raywhite.com/property-report/address')
-        cy.get('#hero-address-finder-autocomplete-input').type('25 Seabrook Crescent')
+        cy.get('#nc-address-finder-1-autocomplete-input').type('25 Seabrook Crescent')
         cy.contains('25 Seabrook Crescent, DOONSIDE NSW 2767').click()
         cy.contains('Next').click()
 
-        cy.get('#property-data-bedrooms-input').type('3')
-        cy.get('#property-data-bathrooms-input').type('1')
-        cy.get('#property-data-car-spaces-input').type('4')
+        cy.get('#input-3').type('3')
+        cy.get('#input-4').type('1')
+        cy.get('#input-5').type('4')
         cy.contains('Next').click()
 
         cy.get('#sign-up-first-name-input').type('Dylan')
@@ -93,13 +93,13 @@ describe('Test Property Report Funnel', () => {
 
     it('1.5. Property Details, Owner Occupied, Already on the market', () => {
         cy.visit('https://nurturecloud-demo.raywhite.com/property-report/address')
-        cy.get('#hero-address-finder-autocomplete-input').type('25 Seabrook Crescent')
+        cy.get('#nc-address-finder-1-autocomplete-input').type('25 Seabrook Crescent')
         cy.contains('25 Seabrook Crescent, DOONSIDE NSW 2767').click()
         cy.contains('Next').click()
 
-        cy.get('#property-data-bedrooms-input').type('3')
-        cy.get('#property-data-bathrooms-input').type('1')
-        cy.get('#property-data-car-spaces-input').type('4')
+        cy.get('#input-3').type('3')
+        cy.get('#input-4').type('1')
+        cy.get('#input-5').type('4')
         cy.contains('Next').click()
 
         cy.get('#sign-up-first-name-input').type('Dylan')
@@ -116,13 +116,13 @@ describe('Test Property Report Funnel', () => {
 
     it('1.6. Property Details, Owner Occupied, Not sure', () => {
         cy.visit('https://nurturecloud-demo.raywhite.com/property-report/address')
-        cy.get('#hero-address-finder-autocomplete-input').type('25 Seabrook Crescent')
+        cy.get('#nc-address-finder-1-autocomplete-input').type('25 Seabrook Crescent')
         cy.contains('25 Seabrook Crescent, DOONSIDE NSW 2767').click()
         cy.contains('Next').click()
 
-        cy.get('#property-data-bedrooms-input').type('3')
-        cy.get('#property-data-bathrooms-input').type('1')
-        cy.get('#property-data-car-spaces-input').type('4')
+        cy.get('#input-3').type('3')
+        cy.get('#input-4').type('1')
+        cy.get('#input-5').type('4')
         cy.contains('Next').click()
 
         cy.get('#sign-up-first-name-input').type('Dylan')
@@ -139,13 +139,13 @@ describe('Test Property Report Funnel', () => {
 
     it('1.7. Property Details, Owner Occupied, Just Refinancing', () => {
         cy.visit('https://nurturecloud-demo.raywhite.com/property-report/address')
-        cy.get('#hero-address-finder-autocomplete-input').type('25 Seabrook Crescent')
+        cy.get('#nc-address-finder-1-autocomplete-input').type('25 Seabrook Crescent')
         cy.contains('25 Seabrook Crescent, DOONSIDE NSW 2767').click()
         cy.contains('Next').click()
 
-        cy.get('#property-data-bedrooms-input').type('3')
-        cy.get('#property-data-bathrooms-input').type('1')
-        cy.get('#property-data-car-spaces-input').type('4')
+        cy.get('#input-3').type('3')
+        cy.get('#input-4').type('1')
+        cy.get('#input-5').type('4')
         cy.contains('Next').click()
 
         cy.get('#sign-up-first-name-input').type('Dylan')
@@ -162,13 +162,13 @@ describe('Test Property Report Funnel', () => {
 
     it('2.1. Property Details, Owner Investor, Sell Now', () => {
         cy.visit('https://nurturecloud-demo.raywhite.com/property-report/address')
-        cy.get('#hero-address-finder-autocomplete-input').type('25 Seabrook Crescent')
+        cy.get('#nc-address-finder-1-autocomplete-input').type('25 Seabrook Crescent')
         cy.contains('25 Seabrook Crescent, DOONSIDE NSW 2767').click()
         cy.contains('Next').click()
 
-        cy.get('#property-data-bedrooms-input').type('3')
-        cy.get('#property-data-bathrooms-input').type('1')
-        cy.get('#property-data-car-spaces-input').type('4')
+        cy.get('#input-3').type('3')
+        cy.get('#input-4').type('1')
+        cy.get('#input-5').type('4')
         cy.contains('Next').click()
 
         cy.get('#sign-up-first-name-input').type('Dylan')
@@ -185,13 +185,13 @@ describe('Test Property Report Funnel', () => {
 
     it('2.2. Property Details, Owner Investor, Sell Within next Month', () => {
         cy.visit('https://nurturecloud-demo.raywhite.com/property-report/address')
-        cy.get('#hero-address-finder-autocomplete-input').type('25 Seabrook Crescent')
+        cy.get('#nc-address-finder-1-autocomplete-input').type('25 Seabrook Crescent')
         cy.contains('25 Seabrook Crescent, DOONSIDE NSW 2767').click()
         cy.contains('Next').click()
 
-        cy.get('#property-data-bedrooms-input').type('3')
-        cy.get('#property-data-bathrooms-input').type('1')
-        cy.get('#property-data-car-spaces-input').type('4')
+        cy.get('#input-3').type('3')
+        cy.get('#input-4').type('1')
+        cy.get('#input-5').type('4')
         cy.contains('Next').click()
 
         cy.get('#sign-up-first-name-input').type('Dylan')
@@ -208,13 +208,13 @@ describe('Test Property Report Funnel', () => {
 
     it('2.3. Property Details, Owner Investor, Sell 2-6 months', () => {
         cy.visit('https://nurturecloud-demo.raywhite.com/property-report/address')
-        cy.get('#hero-address-finder-autocomplete-input').type('25 Seabrook Crescent')
+        cy.get('#nc-address-finder-1-autocomplete-input').type('25 Seabrook Crescent')
         cy.contains('25 Seabrook Crescent, DOONSIDE NSW 2767').click()
         cy.contains('Next').click()
 
-        cy.get('#property-data-bedrooms-input').type('3')
-        cy.get('#property-data-bathrooms-input').type('1')
-        cy.get('#property-data-car-spaces-input').type('4')
+        cy.get('#input-3').type('3')
+        cy.get('#input-4').type('1')
+        cy.get('#input-5').type('4')
         cy.contains('Next').click()
 
         cy.get('#sign-up-first-name-input').type('Dylan')
@@ -231,13 +231,13 @@ describe('Test Property Report Funnel', () => {
 
     it('2.4. Property Details, Owner Investor, Sell 6+ months', () => {
         cy.visit('https://nurturecloud-demo.raywhite.com/property-report/address')
-        cy.get('#hero-address-finder-autocomplete-input').type('25 Seabrook Crescent')
+        cy.get('#nc-address-finder-1-autocomplete-input').type('25 Seabrook Crescent')
         cy.contains('25 Seabrook Crescent, DOONSIDE NSW 2767').click()
         cy.contains('Next').click()
 
-        cy.get('#property-data-bedrooms-input').type('3')
-        cy.get('#property-data-bathrooms-input').type('1')
-        cy.get('#property-data-car-spaces-input').type('4')
+        cy.get('#input-3').type('3')
+        cy.get('#input-4').type('1')
+        cy.get('#input-5').type('4')
         cy.contains('Next').click()
 
         cy.get('#sign-up-first-name-input').type('Dylan')
@@ -254,13 +254,13 @@ describe('Test Property Report Funnel', () => {
 
     it('2.5. Property Details, Owner Investor, Already on the market', () => {
         cy.visit('https://nurturecloud-demo.raywhite.com/property-report/address')
-        cy.get('#hero-address-finder-autocomplete-input').type('25 Seabrook Crescent')
+        cy.get('#nc-address-finder-1-autocomplete-input').type('25 Seabrook Crescent')
         cy.contains('25 Seabrook Crescent, DOONSIDE NSW 2767').click()
         cy.contains('Next').click()
 
-        cy.get('#property-data-bedrooms-input').type('3')
-        cy.get('#property-data-bathrooms-input').type('1')
-        cy.get('#property-data-car-spaces-input').type('4')
+        cy.get('#input-3').type('3')
+        cy.get('#input-4').type('1')
+        cy.get('#input-5').type('4')
         cy.contains('Next').click()
 
         cy.get('#sign-up-first-name-input').type('Dylan')
@@ -277,13 +277,13 @@ describe('Test Property Report Funnel', () => {
 
     it('2.6. Property Details, Owner Investor, Not sure', () => {
         cy.visit('https://nurturecloud-demo.raywhite.com/property-report/address')
-        cy.get('#hero-address-finder-autocomplete-input').type('25 Seabrook Crescent')
+        cy.get('#nc-address-finder-1-autocomplete-input').type('25 Seabrook Crescent')
         cy.contains('25 Seabrook Crescent, DOONSIDE NSW 2767').click()
         cy.contains('Next').click()
 
-        cy.get('#property-data-bedrooms-input').type('3')
-        cy.get('#property-data-bathrooms-input').type('1')
-        cy.get('#property-data-car-spaces-input').type('4')
+        cy.get('#input-3').type('3')
+        cy.get('#input-4').type('1')
+        cy.get('#input-5').type('4')
         cy.contains('Next').click()
 
         cy.get('#sign-up-first-name-input').type('Dylan')
@@ -300,13 +300,13 @@ describe('Test Property Report Funnel', () => {
 
     it('2.7. Property Details, Owner Investor, Just Refinancing', () => {
         cy.visit('https://nurturecloud-demo.raywhite.com/property-report/address')
-        cy.get('#hero-address-finder-autocomplete-input').type('25 Seabrook Crescent')
+        cy.get('#nc-address-finder-1-autocomplete-input').type('25 Seabrook Crescent')
         cy.contains('25 Seabrook Crescent, DOONSIDE NSW 2767').click()
         cy.contains('Next').click()
 
-        cy.get('#property-data-bedrooms-input').type('3')
-        cy.get('#property-data-bathrooms-input').type('1')
-        cy.get('#property-data-car-spaces-input').type('4')
+        cy.get('#input-3').type('3')
+        cy.get('#input-4').type('1')
+        cy.get('#input-5').type('4')
         cy.contains('Next').click()
 
         cy.get('#sign-up-first-name-input').type('Dylan')
@@ -323,13 +323,13 @@ describe('Test Property Report Funnel', () => {
 
     it('3.1. Property Details, Buyer, Sell Before Purchase', () => {
         cy.visit('https://nurturecloud-demo.raywhite.com/property-report/address')
-        cy.get('#hero-address-finder-autocomplete-input').type('25 Seabrook Crescent')
+        cy.get('#nc-address-finder-1-autocomplete-input').type('25 Seabrook Crescent')
         cy.contains('25 Seabrook Crescent, DOONSIDE NSW 2767').click()
         cy.contains('Next').click()
 
-        cy.get('#property-data-bedrooms-input').type('3')
-        cy.get('#property-data-bathrooms-input').type('1')
-        cy.get('#property-data-car-spaces-input').type('4')
+        cy.get('#input-3').type('3')
+        cy.get('#input-4').type('1')
+        cy.get('#input-5').type('4')
         cy.contains('Next').click()
 
         cy.get('#sign-up-first-name-input').type('Dylan')
@@ -346,13 +346,13 @@ describe('Test Property Report Funnel', () => {
 
     it('3.2. Property Details, Buyer, Dont Sell Before Purchase', () => {
         cy.visit('https://nurturecloud-demo.raywhite.com/property-report/address')
-        cy.get('#hero-address-finder-autocomplete-input').type('25 Seabrook Crescent')
+        cy.get('#nc-address-finder-1-autocomplete-input').type('25 Seabrook Crescent')
         cy.contains('25 Seabrook Crescent, DOONSIDE NSW 2767').click()
         cy.contains('Next').click()
 
-        cy.get('#property-data-bedrooms-input').type('3')
-        cy.get('#property-data-bathrooms-input').type('1')
-        cy.get('#property-data-car-spaces-input').type('4')
+        cy.get('#input-3').type('3')
+        cy.get('#input-4').type('1')
+        cy.get('#input-5').type('4')
         cy.contains('Next').click()
 
         cy.get('#sign-up-first-name-input').type('Dylan')
@@ -369,13 +369,13 @@ describe('Test Property Report Funnel', () => {
 
     it('4.1. Property Details, Tenant', () => {
         cy.visit('https://nurturecloud-demo.raywhite.com/property-report/address')
-        cy.get('#hero-address-finder-autocomplete-input').type('25 Seabrook Crescent')
+        cy.get('#nc-address-finder-1-autocomplete-input').type('25 Seabrook Crescent')
         cy.contains('25 Seabrook Crescent, DOONSIDE NSW 2767').click()
         cy.contains('Next').click()
 
-        cy.get('#property-data-bedrooms-input').type('3')
-        cy.get('#property-data-bathrooms-input').type('1')
-        cy.get('#property-data-car-spaces-input').type('4')
+        cy.get('#input-3').type('3')
+        cy.get('#input-4').type('1')
+        cy.get('#input-5').type('4')
         cy.contains('Next').click()
 
         cy.get('#sign-up-first-name-input').type('Dylan')
@@ -393,7 +393,7 @@ describe('Test Property Report Funnel', () => {
 
     it('5.1. Skip Property Details, Owner Occupied, Sell Now', () => {
         cy.visit('https://nurturecloud-demo.raywhite.com/property-report/address')
-        cy.get('#hero-address-finder-autocomplete-input').type('25 Seabrook Crescent')
+        cy.get('#nc-address-finder-1-autocomplete-input').type('25 Seabrook Crescent')
         cy.contains('25 Seabrook Crescent, DOONSIDE NSW 2767').click()
         cy.contains('Next').click()
 
@@ -413,7 +413,7 @@ describe('Test Property Report Funnel', () => {
 
     it('5.2. Skip Property Details, Owner Occupied, Sell Within next Month', () => {
         cy.visit('https://nurturecloud-demo.raywhite.com/property-report/address')
-        cy.get('#hero-address-finder-autocomplete-input').type('25 Seabrook Crescent')
+        cy.get('#nc-address-finder-1-autocomplete-input').type('25 Seabrook Crescent')
         cy.contains('25 Seabrook Crescent, DOONSIDE NSW 2767').click()
         cy.contains('Next').click()
 
@@ -433,7 +433,7 @@ describe('Test Property Report Funnel', () => {
 
     it('5.3. Skip Property Details, Owner Occupied, Sell 2-6 months', () => {
         cy.visit('https://nurturecloud-demo.raywhite.com/property-report/address')
-        cy.get('#hero-address-finder-autocomplete-input').type('25 Seabrook Crescent')
+        cy.get('#nc-address-finder-1-autocomplete-input').type('25 Seabrook Crescent')
         cy.contains('25 Seabrook Crescent, DOONSIDE NSW 2767').click()
         cy.contains('Next').click()
 
@@ -453,7 +453,7 @@ describe('Test Property Report Funnel', () => {
 
     it('5.4. Skip Property Details, Owner Occupied, Sell 6+ months', () => {
         cy.visit('https://nurturecloud-demo.raywhite.com/property-report/address')
-        cy.get('#hero-address-finder-autocomplete-input').type('25 Seabrook Crescent')
+        cy.get('#nc-address-finder-1-autocomplete-input').type('25 Seabrook Crescent')
         cy.contains('25 Seabrook Crescent, DOONSIDE NSW 2767').click()
         cy.contains('Next').click()
 
@@ -473,7 +473,7 @@ describe('Test Property Report Funnel', () => {
 
     it('5.5. Skip Property Details, Owner Occupied, Already on the market', () => {
         cy.visit('https://nurturecloud-demo.raywhite.com/property-report/address')
-        cy.get('#hero-address-finder-autocomplete-input').type('25 Seabrook Crescent')
+        cy.get('#nc-address-finder-1-autocomplete-input').type('25 Seabrook Crescent')
         cy.contains('25 Seabrook Crescent, DOONSIDE NSW 2767').click()
         cy.contains('Next').click()
 
@@ -493,7 +493,7 @@ describe('Test Property Report Funnel', () => {
 
     it('5.6. Skip Property Details, Owner Occupied, Not sure', () => {
         cy.visit('https://nurturecloud-demo.raywhite.com/property-report/address')
-        cy.get('#hero-address-finder-autocomplete-input').type('25 Seabrook Crescent')
+        cy.get('#nc-address-finder-1-autocomplete-input').type('25 Seabrook Crescent')
         cy.contains('25 Seabrook Crescent, DOONSIDE NSW 2767').click()
         cy.contains('Next').click()
 
@@ -513,7 +513,7 @@ describe('Test Property Report Funnel', () => {
 
     it('5.7. Skip Property Details, Owner Occupied, Just Refinancing', () => {
         cy.visit('https://nurturecloud-demo.raywhite.com/property-report/address')
-        cy.get('#hero-address-finder-autocomplete-input').type('25 Seabrook Crescent')
+        cy.get('#nc-address-finder-1-autocomplete-input').type('25 Seabrook Crescent')
         cy.contains('25 Seabrook Crescent, DOONSIDE NSW 2767').click()
         cy.contains('Next').click()
 
@@ -533,7 +533,7 @@ describe('Test Property Report Funnel', () => {
 
     it('6.1. Skip Property Details, Owner Investor, Sell Now', () => {
         cy.visit('https://nurturecloud-demo.raywhite.com/property-report/address')
-        cy.get('#hero-address-finder-autocomplete-input').type('25 Seabrook Crescent')
+        cy.get('#nc-address-finder-1-autocomplete-input').type('25 Seabrook Crescent')
         cy.contains('25 Seabrook Crescent, DOONSIDE NSW 2767').click()
         cy.contains('Next').click()
 
@@ -553,7 +553,7 @@ describe('Test Property Report Funnel', () => {
 
     it('6.2. Skip Property Details, Owner Investor, Sell Within next Month', () => {
         cy.visit('https://nurturecloud-demo.raywhite.com/property-report/address')
-        cy.get('#hero-address-finder-autocomplete-input').type('25 Seabrook Crescent')
+        cy.get('#nc-address-finder-1-autocomplete-input').type('25 Seabrook Crescent')
         cy.contains('25 Seabrook Crescent, DOONSIDE NSW 2767').click()
         cy.contains('Next').click()
 
@@ -573,7 +573,7 @@ describe('Test Property Report Funnel', () => {
 
     it('6.3. Skip Property Details, Owner Investor, Sell 2-6 months', () => {
         cy.visit('https://nurturecloud-demo.raywhite.com/property-report/address')
-        cy.get('#hero-address-finder-autocomplete-input').type('25 Seabrook Crescent')
+        cy.get('#nc-address-finder-1-autocomplete-input').type('25 Seabrook Crescent')
         cy.contains('25 Seabrook Crescent, DOONSIDE NSW 2767').click()
         cy.contains('Next').click()
 
@@ -593,7 +593,7 @@ describe('Test Property Report Funnel', () => {
 
     it('6.4. Skip Property Details, Owner Investor, Sell 6+ months', () => {
         cy.visit('https://nurturecloud-demo.raywhite.com/property-report/address')
-        cy.get('#hero-address-finder-autocomplete-input').type('25 Seabrook Crescent')
+        cy.get('#nc-address-finder-1-autocomplete-input').type('25 Seabrook Crescent')
         cy.contains('25 Seabrook Crescent, DOONSIDE NSW 2767').click()
         cy.contains('Next').click()
 
@@ -613,7 +613,7 @@ describe('Test Property Report Funnel', () => {
 
     it('6.5. Skip Property Details, Owner Investor, Already on the market', () => {
         cy.visit('https://nurturecloud-demo.raywhite.com/property-report/address')
-        cy.get('#hero-address-finder-autocomplete-input').type('25 Seabrook Crescent')
+        cy.get('#nc-address-finder-1-autocomplete-input').type('25 Seabrook Crescent')
         cy.contains('25 Seabrook Crescent, DOONSIDE NSW 2767').click()
         cy.contains('Next').click()
 
@@ -633,7 +633,7 @@ describe('Test Property Report Funnel', () => {
 
     it('6.6. Skip Property Details, Owner Investor, Not sure', () => {
         cy.visit('https://nurturecloud-demo.raywhite.com/property-report/address')
-        cy.get('#hero-address-finder-autocomplete-input').type('25 Seabrook Crescent')
+        cy.get('#nc-address-finder-1-autocomplete-input').type('25 Seabrook Crescent')
         cy.contains('25 Seabrook Crescent, DOONSIDE NSW 2767').click()
         cy.contains('Next').click()
 
@@ -653,7 +653,7 @@ describe('Test Property Report Funnel', () => {
 
     it('6.7. Skip Property Details, Owner Investor, Just Refinancing', () => {
         cy.visit('https://nurturecloud-demo.raywhite.com/property-report/address')
-        cy.get('#hero-address-finder-autocomplete-input').type('25 Seabrook Crescent')
+        cy.get('#nc-address-finder-1-autocomplete-input').type('25 Seabrook Crescent')
         cy.contains('25 Seabrook Crescent, DOONSIDE NSW 2767').click()
         cy.contains('Next').click()
 
@@ -673,7 +673,7 @@ describe('Test Property Report Funnel', () => {
 
     it('7.1. Skip Property Details, Buyer, Sell Before Purchase', () => {
         cy.visit('https://nurturecloud-demo.raywhite.com/property-report/address')
-        cy.get('#hero-address-finder-autocomplete-input').type('25 Seabrook Crescent')
+        cy.get('#nc-address-finder-1-autocomplete-input').type('25 Seabrook Crescent')
         cy.contains('25 Seabrook Crescent, DOONSIDE NSW 2767').click()
         cy.contains('Next').click()
 
@@ -693,7 +693,7 @@ describe('Test Property Report Funnel', () => {
 
     it('7.2. Skip Property Details, Buyer, Dont Sell Before Purchase', () => {
         cy.visit('https://nurturecloud-demo.raywhite.com/property-report/address')
-        cy.get('#hero-address-finder-autocomplete-input').type('25 Seabrook Crescent')
+        cy.get('#nc-address-finder-1-autocomplete-input').type('25 Seabrook Crescent')
         cy.contains('25 Seabrook Crescent, DOONSIDE NSW 2767').click()
         cy.contains('Next').click()
 
@@ -713,7 +713,7 @@ describe('Test Property Report Funnel', () => {
 
     it('8.1. Skip Property Details, Tenant', () => {
         cy.visit('https://nurturecloud-demo.raywhite.com/property-report/address')
-        cy.get('#hero-address-finder-autocomplete-input').type('25 Seabrook Crescent')
+        cy.get('#nc-address-finder-1-autocomplete-input').type('25 Seabrook Crescent')
         cy.contains('25 Seabrook Crescent, DOONSIDE NSW 2767').click()
         cy.contains('Next').click()
 

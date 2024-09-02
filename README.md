@@ -104,3 +104,17 @@ Relationship with the property
 | 33 | 7.2 | Valid address    | Skip property details | Valid details | Buyer, No							  |
 | 34 | 8.1 | Valid address    | Skip property details | Valid details | Tenant								  |
 
+## Further Testing
+
+- Entering invalid address
+	- Wrong parts of the address e.g. number is wrong but street is correct
+	- Overflowing the box
+- Entering invalid property details (Form should have input validation)
+	- Entering 0
+	- Entering negative numbers
+	- Entering large numbers
+- Entering invalid user details (These shouldn't have any impact on the flow. Just wrong info when sending emails/sms message)
+	- Wrong name
+	- Wrong email address
+	- Wrong phone number
+- Using differnt browser/device combinations
