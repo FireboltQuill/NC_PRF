@@ -29,9 +29,9 @@ Entering property address
 Entering property details
 Confirm user details
 Questionnaire
-	Relationship with the property
+	- Relationship with the property
 	- Owner Occupied
-		When are you thinking of selling?
+		- When are you thinking of selling?
 		- Now
 		- Within the next month
 		- 2-6 months
@@ -40,7 +40,7 @@ Questionnaire
 		- Not sure
 		- Just refinancing
 	- Owner Investor
-		When are you thinking of selling?
+		- When are you thinking of selling?
 		- Now
 		- Within the next month
 		- 2-6 months
@@ -49,7 +49,7 @@ Questionnaire
 		- Not sure
 		- Just refinancing
 	- Buyer
-		Are you looking to sell a property before purchase
+		- Are you looking to sell a property before purchase
 		- Yes
 		- No
 	- Tenant
