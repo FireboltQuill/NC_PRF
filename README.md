@@ -65,6 +65,8 @@ Relationship with the property
 		- No
 - Tenant
 
+### Online property report generated and displayed and Property report sent to entered email address
+
 ## Automated Test Cases (34)
 
 | No | ID  | Property Address | Property Details	  | User Details  | Questionnaire						  |
@@ -110,6 +112,7 @@ Relationship with the property
 
 ## Further Testing
 
+- Validate report data accuracy according to official data source
 - Entering invalid address
 	- Wrong parts of the address e.g. number is wrong but street is correct
 	- Overflowing the box
@@ -122,3 +125,6 @@ Relationship with the property
 	- Wrong email address
 	- Wrong phone number
 - Using different browser/device combinations
+- Other functions
+	- Sign in
+ 	- Track property
